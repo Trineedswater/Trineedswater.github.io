@@ -81,11 +81,12 @@ input, select, textarea {
 		align-items: stretch;
 		color: #f5efff;
 	}
-		.row > .col-6-medium {
-			color: inherit
+		.row > * > .project-description {
+			color: inherit;
+			font-size: 18px;
 		}
 
-		.row > .col-6-medium > .artist-reference {
+		.row > * >.artist-reference {
 			margin: 4px 0;
 			font-size: 12px; /* Adjust the font size as needed */
   			font-style: italic;
