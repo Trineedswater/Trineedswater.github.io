@@ -81,6 +81,16 @@ input, select, textarea {
 		align-items: stretch;
 		color: #f5efff;
 	}
+		.row > .col-6-medium {
+			color: inherit
+		}
+
+		.row > .col-6-medium > .artist-reference {
+			margin: 4px 0;
+			font-size: 12px; /* Adjust the font size as needed */
+  			font-style: italic;
+			color: #9886b3;
+		}
 
 		.row > * {
 			box-sizing: border-box;
