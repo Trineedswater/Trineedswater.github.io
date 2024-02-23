@@ -1336,10 +1336,18 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	body, input, textarea, select {
+	body, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #9886b3;
+		font-size: 20pt;
+		line-height: 1.75em;
+	}
+
+	input, textarea {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: #e9e6ff;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -1489,7 +1497,7 @@ input, select, textarea {
 	form textarea {
 		-webkit-appearance: none;
 		border: 0;
-		background: #f4f4f4;
+		background: #b8a2ec60;
 		padding: 0.75em;
 		width: 100%;
 		-moz-transition: background-color .25s ease-in-out;
@@ -1503,7 +1511,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #f8f8f8;
+			background: #b6a0d8c9;
 		}
 
 	form input[type="text"],
@@ -1606,7 +1614,7 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #f5efff;
+		background-color: #b8a2ec60;
 		color:#ecdfff;
 		border: 0;
 		cursor: pointer;
@@ -1619,7 +1627,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #333333;
+			background-color: #b6a0d8c9;
 		}
 
 		input[type="button"]:active,
@@ -1635,7 +1643,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #777777;
+			background-color: #555555;
 		}
 
 			input[type="button"].alt:hover,
@@ -1643,7 +1651,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #888888;
+				background-color: #777777;
 			}
 
 			input[type="button"].alt:active,
